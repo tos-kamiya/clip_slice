@@ -1,13 +1,13 @@
 # clip_slice
 
-clip_slice is an utility inspired by Python's slice, which allows you to specify index backwards from the end by a negative value.
+clip_slice is a utility inspired by Python's slice, which allows you to specify an index backward from the end by a negative value.
 
 ## Usage
 
 `Clip::by(<slice>, <start>..<end>) -> <slice>`  
 `Clip::mut_by(<mut_slice>, <start>..<end>) -> <mut_slice>`  
 
-Here, `<start>` and `<end>` are indices, and if they are negative, the position is interpreted as going backwards from the back end of the slice.
+Here, `<start>` and `<end>` are indices, and if they are negative, the position is interpreted as going backward from the back end of the slice.
 
 ## Examples
 
